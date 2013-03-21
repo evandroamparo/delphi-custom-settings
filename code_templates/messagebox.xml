@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="mbox" invoke="auto">
+		<description>
+			Application.Messagebox()
+		</description>
+		<point name="text">
+        	<script language="Delphi">
+				InvokeCodeCompletion;
+			</script>
+			<text>
+				Text
+			</text>
+			<hint>
+				Text
+			</hint>
+		</point>
+		<point name="caption">
+        	<script language="Delphi">
+				InvokeCodeCompletion;
+			</script>
+			<text>
+            	Caption
+			</text>
+			<hint>
+				Caption
+			</hint>
+		</point>
+		<point name="flags">
+        	<script language="Delphi">
+				InvokeCodeCompletion;
+			</script>
+			<text>
+            	Flags
+			</text>
+			<hint>
+				Flags
+			</hint>
+		</point>
+		<author>
+			Tecsystem
+		</author>
+		<code language="Delphi" context="methodbody" delimiter="|"><![CDATA[Application.MessageBox(|text|, |caption|, |flags|)|end|]]>
+		</code>
+	</template>
+</codetemplate>
