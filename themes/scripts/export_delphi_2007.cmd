@@ -1,0 +1,1 @@
+@reg export HKEY_CURRENT_USER\Software\Borland\BDS\5.0\Editor\Highlight delphi2007.reg /y
