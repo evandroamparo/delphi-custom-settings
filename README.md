@@ -22,3 +22,5 @@ The `code_templates` folder contains templates for code standards used by [Tecsy
 With Delphi closed, just double click the saved file to import it to Windows registry. **This will overwrite your current color scheme**.
 
 ### Code templates
+
+(TODO)
