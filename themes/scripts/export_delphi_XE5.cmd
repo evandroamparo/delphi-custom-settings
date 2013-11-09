@@ -1,0 +1,1 @@
+@reg export HKEY_CURRENT_USER\Software\Embarcadero\BDS\12.0\Editor\Highlight delphiXE5.reg /y

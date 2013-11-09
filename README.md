@@ -14,7 +14,9 @@ The `code_templates` folder contains templates for code standards used by [Tecsy
     
     `HKEY_CURRENT_USER\Software\Borland\BDS\5.0\Editor\Highlight` - For Delphi 7
 
-    `HKEY_CURRENT_USER\Software\Embarcadero\BDS\9.0\Editor\Highlight` - For RAD Studo XE2
+    `HKEY_CURRENT_USER\Software\Embarcadero\BDS\9.0\Editor\Highlight` - For RAD Studio XE2
+
+    `HKEY_CURRENT_USER\Software\Embarcadero\BDS\12.0\Editor\Highlight` - For RAD Studo XE5
     
     Other versions are similar.
 
