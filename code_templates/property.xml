@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="prop" invoke="auto">
+		<point name="name">
+			<hint>
+				property name
+			</hint>
+		</point>
+		<point name="type">
+			<text>
+				type
+			</text>
+			<script language="Delphi" onenter="true" onleave="false">
+				
+			</script>
+			<hint>
+				property type
+			</hint>
+		</point>
+		<description>
+			property declaration
+		</description>
+		<author>
+			Tecsystem
+		</author>
+		<code language="Delphi" context="methodbody" delimiter="|"><![CDATA[property |name|: |type| read Get|name| write Set|name|;|end|]]>
+		</code>
+	</template>
+</codetemplate>
